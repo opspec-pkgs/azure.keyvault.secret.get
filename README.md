@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/opspec-pkgs/azure.keyvault.secret-string.get.svg?branch=master)](https://travis-ci.org/opspec-pkgs/azure.keyvault.secret-string.get)
+
 # Problem statement
 gets a secret string from azure keyvault
 

@@ -36,6 +36,7 @@ outputs:
   value:
     string:
       description: the secret string
+version: 1.0.0
 run:
   container:
     image: { ref: 'azuresdk/azure-cli-python:0.2.10' }
