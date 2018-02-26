@@ -26,10 +26,7 @@ az account set --subscription "$subscriptionId"
 ### end login
 
 echo 'getting secret'
-value=$(az keyvault secret show \
-    --name "$name" \
-    --vault-name "$vault" \
-    --query 'value' \
-    --output tsv)
-
-echo "value=$value"
+az keyvault secret show \
+    --name "$secretName" \
+    --vault-name "$vaultName" \
+    > /secret
